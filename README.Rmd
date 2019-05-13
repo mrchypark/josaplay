@@ -24,6 +24,8 @@ The goal of josaplay is to ...
 
 ## Installation
 
+### NOT YET ON CRAN
+
 You can install the released version of josaplay from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
@@ -33,8 +35,8 @@ install.packages("josaplay")
 And the development version from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("mrchypark/josaplay")
+# install.packages("remotes")
+remotes::install_github("mrchypark/josaplay")
 ```
 ## Example
 
@@ -42,5 +44,18 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(josaplay)
-## basic example code
+jsp_gwawa("상품")
+jsp_gwawa("텀블러")
+jsp_eunneun("사랑")
+jsp_eunneun("탁자")
+jsp_iga("고객")
+jsp_iga("모니터")
+jsp_eulleul("패키지")
+jsp_eulleul("컵")
 ```
+
+## Todo
+
+* Support jamo text    
+* Support number text    
+* Support special characters text    
