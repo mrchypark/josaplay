@@ -5,6 +5,10 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.org/mrchypark/josaplay.svg?branch=master)](https://travis-ci.org/mrchypark/josaplay)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/mrchypark/josaplay?branch=master&svg=true)](https://ci.appveyor.com/project/mrchypark/josaplay)
 <!-- badges: end -->
 
 The goal of josaplay is to …

@@ -1,0 +1,7 @@
+destination: docs
+title: josaplay
+url: https://mrchypark.github.io/josaplay
+template:
+  params:
+    bootswatch: yeti
+    ganalytics: UA-47822682-17
