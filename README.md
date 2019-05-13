@@ -11,9 +11,14 @@ status](https://travis-ci.org/mrchypark/josaplay.svg?branch=master)](https://tra
 status](https://ci.appveyor.com/api/projects/status/github/mrchypark/josaplay?branch=master&svg=true)](https://ci.appveyor.com/project/mrchypark/josaplay)
 [![Codecov test
 coverage](https://codecov.io/gh/mrchypark/josaplay/branch/master/graph/badge.svg)](https://codecov.io/gh/mrchypark/josaplay?branch=master)
+[![Lifecycle:
+maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/josaplay)](https://cran.r-project.org/package=josaplay)
 <!-- badges: end -->
 
-The goal of josaplay is to …
+The goal of josaplay is to provide functions to add josa in Korean text.
+It is useful with Rmarkdown.
 
 ## Installation
 
@@ -64,5 +69,5 @@ jsp_iga("k146")
 
 ## Todo
 
-  - Support jamo text  
-  - Support special characters text
+  - support only jamo character
+  - support special character

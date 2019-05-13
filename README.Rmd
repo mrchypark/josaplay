@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/josaplay)](https://cran.r-project.org/package=josaplay)
 <!-- badges: end -->
 
-The goal of josaplay is to ...
+The goal of josaplay is to provide functions to add josa in Korean text. It is useful with Rmarkdown.
 
 ## Installation
 
@@ -47,4 +47,19 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 library(josaplay)
 
-jsp_gwawa("
+jsp_gwawa("상품")
+jsp_gwawa("텀블러")
+jsp_eunneun("사랑")
+jsp_eunneun("탁자")
+jsp_iga("고객")
+jsp_iga("모니터")
+jsp_eulleul("패키지")
+jsp_eulleul("컵")
+jsp_iga("145")
+jsp_iga("k146")
+```
+
+## Todo
+
+- support only jamo character
+- support special character
