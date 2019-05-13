@@ -9,6 +9,8 @@
 status](https://travis-ci.org/mrchypark/josaplay.svg?branch=master)](https://travis-ci.org/mrchypark/josaplay)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/github/mrchypark/josaplay?branch=master&svg=true)](https://ci.appveyor.com/project/mrchypark/josaplay)
+[![Codecov test
+coverage](https://codecov.io/gh/mrchypark/josaplay/branch/master/graph/badge.svg)](https://codecov.io/gh/mrchypark/josaplay?branch=master)
 <!-- badges: end -->
 
 The goal of josaplay is to …
