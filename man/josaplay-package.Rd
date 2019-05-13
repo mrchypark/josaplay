@@ -4,7 +4,7 @@
 \name{josaplay-package}
 \alias{josaplay}
 \alias{josaplay-package}
-\title{josaplay: Add Josa Based On Previous Letter In Korean}
+\title{josaplay: Add Josa Based on Previous Letter in Korean}
 \description{
 Add josa text for Korean.
 }
