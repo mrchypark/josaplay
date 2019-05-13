@@ -1,5 +1,7 @@
 # josaplay 0.1.2
 
+* Fix help page.
+
 # josaplay 0.1.1
 
 * Removed purrr package dependency.
