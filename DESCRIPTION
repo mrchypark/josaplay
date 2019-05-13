@@ -1,6 +1,6 @@
 Package: josaplay
 Title: Add Josa Based on Previous Letter in Korean
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(given = "Chanyub",
            family = "Park",
