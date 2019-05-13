@@ -2,9 +2,9 @@
 #'
 #' prefix jsp_ functions work support gwawa, eunneun, iga, eulleul
 #'
-#' @usage NULL
 #' @param textko target text in Korean encoding UTF-8
 #' @rdname jsp
+#' @name extract
 #' @export
 #' @examples
 #'  jsp_gwawa("134")
@@ -18,7 +18,6 @@ jsp_gwawa <- function(textko){
     paste0(textko, .)
 }
 
-#' @usage NULL
 #' @rdname jsp
 #' @export
 jsp_eunneun <- function(textko){
@@ -30,7 +29,6 @@ jsp_eunneun <- function(textko){
     paste0(textko, .)
 }
 
-#' @usage NULL
 #' @rdname jsp
 #' @export
 jsp_iga <- function(textko){
@@ -42,7 +40,6 @@ jsp_iga <- function(textko){
     paste0(textko, .)
 }
 
-#' @usage NULL
 #' @rdname jsp
 #' @export
 jsp_eulleul <- function(textko){
