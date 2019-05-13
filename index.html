@@ -5,11 +5,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Add Josa Based On Previous Letter In Korean • josaplay</title>
+<title>Add Josa Based on Previous Letter in Korean • josaplay</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><!-- Bootstrap --><link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/yeti/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ=" crossorigin="anonymous"></script><!-- sticky kit --><script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" integrity="sha256-c4Rlo1ZozqTPE2RLuvbusY3+SU1pQaJC0TjuhygMipw=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="Add Josa Based On Previous Letter In Korean">
+<script src="pkgdown.js"></script><meta property="og:title" content="Add Josa Based on Previous Letter in Korean">
 <meta property="og:description" content="Add josa text for Korean.">
 <meta name="twitter:card" content="summary">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
@@ -36,7 +36,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">josaplay</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.1</span>
       </span>
     </div>
 
@@ -103,25 +103,25 @@
 <p>This is a basic example which shows you how to solve a common problem:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(josaplay)</a>
 <a class="sourceLine" id="cb3-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb3-3" data-line-number="3"><span class="kw"><a href="reference/jsp_gwawa.html">jsp_gwawa</a></span>(<span class="st">"상품"</span>)</a>
+<a class="sourceLine" id="cb3-3" data-line-number="3"><span class="kw"><a href="reference/jsp.html">jsp_gwawa</a></span>(<span class="st">"상품"</span>)</a>
 <a class="sourceLine" id="cb3-4" data-line-number="4"><span class="co">#&gt; [1] "상품과"</span></a>
-<a class="sourceLine" id="cb3-5" data-line-number="5"><span class="kw"><a href="reference/jsp_gwawa.html">jsp_gwawa</a></span>(<span class="st">"텀블러"</span>)</a>
+<a class="sourceLine" id="cb3-5" data-line-number="5"><span class="kw"><a href="reference/jsp.html">jsp_gwawa</a></span>(<span class="st">"텀블러"</span>)</a>
 <a class="sourceLine" id="cb3-6" data-line-number="6"><span class="co">#&gt; [1] "텀블러와"</span></a>
-<a class="sourceLine" id="cb3-7" data-line-number="7"><span class="kw"><a href="reference/jsp_eunneun.html">jsp_eunneun</a></span>(<span class="st">"사랑"</span>)</a>
+<a class="sourceLine" id="cb3-7" data-line-number="7"><span class="kw"><a href="reference/jsp.html">jsp_eunneun</a></span>(<span class="st">"사랑"</span>)</a>
 <a class="sourceLine" id="cb3-8" data-line-number="8"><span class="co">#&gt; [1] "사랑은"</span></a>
-<a class="sourceLine" id="cb3-9" data-line-number="9"><span class="kw"><a href="reference/jsp_eunneun.html">jsp_eunneun</a></span>(<span class="st">"탁자"</span>)</a>
+<a class="sourceLine" id="cb3-9" data-line-number="9"><span class="kw"><a href="reference/jsp.html">jsp_eunneun</a></span>(<span class="st">"탁자"</span>)</a>
 <a class="sourceLine" id="cb3-10" data-line-number="10"><span class="co">#&gt; [1] "탁자는"</span></a>
-<a class="sourceLine" id="cb3-11" data-line-number="11"><span class="kw"><a href="reference/jsp_iga.html">jsp_iga</a></span>(<span class="st">"고객"</span>)</a>
+<a class="sourceLine" id="cb3-11" data-line-number="11"><span class="kw"><a href="reference/jsp.html">jsp_iga</a></span>(<span class="st">"고객"</span>)</a>
 <a class="sourceLine" id="cb3-12" data-line-number="12"><span class="co">#&gt; [1] "고객이"</span></a>
-<a class="sourceLine" id="cb3-13" data-line-number="13"><span class="kw"><a href="reference/jsp_iga.html">jsp_iga</a></span>(<span class="st">"모니터"</span>)</a>
+<a class="sourceLine" id="cb3-13" data-line-number="13"><span class="kw"><a href="reference/jsp.html">jsp_iga</a></span>(<span class="st">"모니터"</span>)</a>
 <a class="sourceLine" id="cb3-14" data-line-number="14"><span class="co">#&gt; [1] "모니터가"</span></a>
-<a class="sourceLine" id="cb3-15" data-line-number="15"><span class="kw"><a href="reference/jsp_eulleul.html">jsp_eulleul</a></span>(<span class="st">"패키지"</span>)</a>
+<a class="sourceLine" id="cb3-15" data-line-number="15"><span class="kw"><a href="reference/jsp.html">jsp_eulleul</a></span>(<span class="st">"패키지"</span>)</a>
 <a class="sourceLine" id="cb3-16" data-line-number="16"><span class="co">#&gt; [1] "패키지를"</span></a>
-<a class="sourceLine" id="cb3-17" data-line-number="17"><span class="kw"><a href="reference/jsp_eulleul.html">jsp_eulleul</a></span>(<span class="st">"컵"</span>)</a>
+<a class="sourceLine" id="cb3-17" data-line-number="17"><span class="kw"><a href="reference/jsp.html">jsp_eulleul</a></span>(<span class="st">"컵"</span>)</a>
 <a class="sourceLine" id="cb3-18" data-line-number="18"><span class="co">#&gt; [1] "컵을"</span></a>
-<a class="sourceLine" id="cb3-19" data-line-number="19"><span class="kw"><a href="reference/jsp_iga.html">jsp_iga</a></span>(<span class="st">"145"</span>)</a>
+<a class="sourceLine" id="cb3-19" data-line-number="19"><span class="kw"><a href="reference/jsp.html">jsp_iga</a></span>(<span class="st">"145"</span>)</a>
 <a class="sourceLine" id="cb3-20" data-line-number="20"><span class="co">#&gt; [1] "145가"</span></a>
-<a class="sourceLine" id="cb3-21" data-line-number="21"><span class="kw"><a href="reference/jsp_iga.html">jsp_iga</a></span>(<span class="st">"k146"</span>)</a>
+<a class="sourceLine" id="cb3-21" data-line-number="21"><span class="kw"><a href="reference/jsp.html">jsp_iga</a></span>(<span class="st">"k146"</span>)</a>
 <a class="sourceLine" id="cb3-22" data-line-number="22"><span class="co">#&gt; [1] "k146이"</span></a></code></pre></div>
 </div>
 <div id="todo" class="section level2">
