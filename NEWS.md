@@ -1,3 +1,5 @@
+# josaplay 0.1.2
+
 # josaplay 0.1.1
 
 * Removed purrr package dependency.
