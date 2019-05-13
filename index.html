@@ -84,18 +84,48 @@
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
+<div id="not-yet-on-cran" class="section level3">
+<h3 class="hasAnchor">
+<a href="#not-yet-on-cran" class="anchor"></a>NOT YET ON CRAN</h3>
 <p>You can install the released version of josaplay from <a href="https://CRAN.R-project.org">CRAN</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw"><a href="https://www.rdocumentation.org/packages/utils/topics/install.packages">install.packages</a></span>(<span class="st">"josaplay"</span>)</a></code></pre></div>
 <p>And the development version from <a href="https://github.com/">GitHub</a> with:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="co"># install.packages("devtools")</span></a>
-<a class="sourceLine" id="cb2-2" data-line-number="2">devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">"mrchypark/josaplay"</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="co"># install.packages("remotes")</span></a>
+<a class="sourceLine" id="cb2-2" data-line-number="2">remotes<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/remotes/topics/install_github">install_github</a></span>(<span class="st">"mrchypark/josaplay"</span>)</a></code></pre></div>
+</div>
 </div>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
 <p>This is a basic example which shows you how to solve a common problem:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(josaplay)</a>
-<a class="sourceLine" id="cb3-2" data-line-number="2">## basic example code</a></code></pre></div>
+<a class="sourceLine" id="cb3-2" data-line-number="2"><span class="kw"><a href="reference/jsp_gwawa.html">jsp_gwawa</a></span>(<span class="st">"상품"</span>)</a>
+<a class="sourceLine" id="cb3-3" data-line-number="3"><span class="co">#&gt; [1] "상품과"</span></a>
+<a class="sourceLine" id="cb3-4" data-line-number="4"><span class="kw"><a href="reference/jsp_gwawa.html">jsp_gwawa</a></span>(<span class="st">"텀블러"</span>)</a>
+<a class="sourceLine" id="cb3-5" data-line-number="5"><span class="co">#&gt; [1] "텀블러와"</span></a>
+<a class="sourceLine" id="cb3-6" data-line-number="6"><span class="kw"><a href="reference/jsp_eunneun.html">jsp_eunneun</a></span>(<span class="st">"사랑"</span>)</a>
+<a class="sourceLine" id="cb3-7" data-line-number="7"><span class="co">#&gt; [1] "사랑은"</span></a>
+<a class="sourceLine" id="cb3-8" data-line-number="8"><span class="kw"><a href="reference/jsp_eunneun.html">jsp_eunneun</a></span>(<span class="st">"탁자"</span>)</a>
+<a class="sourceLine" id="cb3-9" data-line-number="9"><span class="co">#&gt; [1] "탁자는"</span></a>
+<a class="sourceLine" id="cb3-10" data-line-number="10"><span class="kw"><a href="reference/jsp_iga.html">jsp_iga</a></span>(<span class="st">"고객"</span>)</a>
+<a class="sourceLine" id="cb3-11" data-line-number="11"><span class="co">#&gt; [1] "고객이"</span></a>
+<a class="sourceLine" id="cb3-12" data-line-number="12"><span class="kw"><a href="reference/jsp_iga.html">jsp_iga</a></span>(<span class="st">"모니터"</span>)</a>
+<a class="sourceLine" id="cb3-13" data-line-number="13"><span class="co">#&gt; [1] "모니터가"</span></a>
+<a class="sourceLine" id="cb3-14" data-line-number="14"><span class="kw"><a href="reference/jsp_eulleul.html">jsp_eulleul</a></span>(<span class="st">"패키지"</span>)</a>
+<a class="sourceLine" id="cb3-15" data-line-number="15"><span class="co">#&gt; [1] "패키지를"</span></a>
+<a class="sourceLine" id="cb3-16" data-line-number="16"><span class="kw"><a href="reference/jsp_eulleul.html">jsp_eulleul</a></span>(<span class="st">"컵"</span>)</a>
+<a class="sourceLine" id="cb3-17" data-line-number="17"><span class="co">#&gt; [1] "컵을"</span></a></code></pre></div>
+</div>
+<div id="todo" class="section level2">
+<h2 class="hasAnchor">
+<a href="#todo" class="anchor"></a>Todo</h2>
+<ul>
+<li>Support jamo text<br>
+</li>
+<li>Support number text<br>
+</li>
+<li>Support special characters text</li>
+</ul>
 </div>
 </div>
   </div>
