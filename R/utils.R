@@ -16,29 +16,25 @@ cvt_num2h <- function(number) {
     )
 }
 
-#' @importFrom purrr map
-utf8ToInt_vec <- function(textko) {
-  purrr::map(textko, utf8ToInt)
+#' @importFrom utf8 as_utf8
+as_utf8 <- utf8::as_utf8
+
+utf8ToInt_as <- function(textko) {
+  utf8ToInt(as_utf8(textko))
 }
 
 quite_as_numeric <- function(x, ...) {
   suppressWarnings(as.numeric(x, ...))
 }
 
-add_josa <- function(josa) {
-  function(koint) {
-    paste0(intToUtf8(koint), intToUtf8(josa))
-  }
-}
+gwa <- intToUtf8(44284)
+wa <- intToUtf8(50752)
 
-add_gwa <- add_josa(44284)
-add_wa <- add_josa(50752)
+eun <- intToUtf8(51008)
+neun <- intToUtf8(45716)
 
-add_eun <- add_josa(51008)
-add_neun <- add_josa(45716)
+i <- intToUtf8(51060)
+ga <- intToUtf8(44032)
 
-add_i <- add_josa(51060)
-add_ga <- add_josa(44032)
-
-add_eul <- add_josa(51012)
-add_leul <- add_josa(47484)
+eul <- intToUtf8(51012)
+leul <- intToUtf8(47484)

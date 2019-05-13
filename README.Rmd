@@ -44,6 +44,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(josaplay)
+
 jsp_gwawa("상품")
 jsp_gwawa("텀블러")
 jsp_eunneun("사랑")
@@ -52,10 +53,11 @@ jsp_iga("고객")
 jsp_iga("모니터")
 jsp_eulleul("패키지")
 jsp_eulleul("컵")
+jsp_iga("145")
+jsp_iga("k146")
 ```
 
 ## Todo
 
 * Support jamo text    
-* Support number text    
 * Support special characters text    

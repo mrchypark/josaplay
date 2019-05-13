@@ -39,6 +39,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(josaplay)
+
 jsp_gwawa("상품")
 #> [1] "상품과"
 jsp_gwawa("텀블러")
@@ -55,10 +56,13 @@ jsp_eulleul("패키지")
 #> [1] "패키지를"
 jsp_eulleul("컵")
 #> [1] "컵을"
+jsp_iga("145")
+#> [1] "145가"
+jsp_iga("k146")
+#> [1] "k146이"
 ```
 
 ## Todo
 
   - Support jamo text  
-  - Support number text  
   - Support special characters text

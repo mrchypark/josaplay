@@ -8,13 +8,10 @@ jsp_gwawa <- function(textko){
   textko %>%
     chk() %>%
     purrr::when(
-      is_modone(.) ~ add_wa(.),
-      ~ add_gwa(.)
-    ) ->
-    end
-  textko %>%
-    substr(1, nchar(.) - 1) %>%
-    paste0(end)
+      is_modone(.) ~ wa,
+      ~ gwa
+    ) %>%
+    paste0(textko, .)
 }
 
 #' eunneun support
@@ -27,13 +24,10 @@ jsp_eunneun <- function(textko){
   textko %>%
     chk() %>%
     purrr::when(
-      is_modone(.) ~ add_neun(.),
-      ~ add_eun(.)
-    ) ->
-    end
-  textko %>%
-    substr(1, nchar(.) - 1) %>%
-    paste0(end)
+      is_modone(.) ~ neun,
+      ~ eun
+    ) %>%
+    paste0(textko, .)
 }
 
 #' iga support
@@ -46,13 +40,10 @@ jsp_iga <- function(textko){
   textko %>%
     chk() %>%
     purrr::when(
-      is_modone(.) ~ add_ga(.),
-      ~ add_i(.)
-    ) ->
-    end
-  textko %>%
-    substr(1, nchar(.) - 1) %>%
-    paste0(end)
+      is_modone(.) ~ ga,
+      ~ i
+    ) %>%
+    paste0(textko, .)
 }
 
 #' eulleul support
@@ -65,11 +56,8 @@ jsp_eulleul <- function(textko){
   textko %>%
     chk() %>%
     purrr::when(
-      is_modone(.) ~ add_leul(.),
-      ~ add_eul(.)
-    ) ->
-    end
-  textko %>%
-    substr(1, nchar(.) - 1) %>%
-    paste0(end)
+      is_modone(.) ~ leul,
+      ~ eul
+    ) %>%
+    paste0(textko, .)
 }
