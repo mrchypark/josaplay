@@ -1,16 +1,22 @@
-#' @importFrom purrr when
 chk <- function(textko) {
   . <- NULL
-  stopifnot(is_utf8(textko))
-
   textko %>%
     trimws() %>%
-    substr(nchar(.), nchar(.)) %>%
-    purrr::when(
-      is_hangul(.) & !is_number(.) ~ utf8ToInt_as(.) ,
-      !is_hangul(.) & is_number(.) ~ cvt_num2h(.) ,
-       ~ stop("Not support character. Please ender hangul or number")
-    )
+    substr(nchar(.), nchar(.)) ->
+    last
+
+  if (!is_number(last)) {
+    stopifnot(is_utf8(textko))
+  }
+
+  if (is_hangul(last) & !is_number(last)) {
+    return(utf8ToInt_as(last))
+  } else if (!is_hangul(last) & is_number(last)) {
+    return(cvt_num2h(last))
+  } else {
+    stop("Not support character. Please ender hangul or number")
+  }
+  invisible(last)
 }
 
 
