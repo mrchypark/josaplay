@@ -70,4 +70,5 @@ jsp_iga("k146")
 ## Todo
 
   - support only jamo character
+  - support English letters
   - support special character
