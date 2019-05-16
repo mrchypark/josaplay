@@ -1,5 +1,7 @@
 # josaplay 0.1.3
 
+* Fix DESCRIPTION text to submit cran.
+
 # josaplay 0.1.2
 
 * Fix help page.
