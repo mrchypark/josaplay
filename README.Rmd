@@ -26,8 +26,6 @@ The goal of josaplay is to provide functions to add josa in Korean text. It is u
 
 ## Installation
 
-### NOT YET ON CRAN
-
 You can install the released version of josaplay from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r

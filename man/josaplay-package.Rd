@@ -9,7 +9,7 @@
 Josa in Korean is often determined by judging the previous word. 
             When writing reports using Rmd, a function that prints the 
             appropriate investigation for each case is helpful. 
-            The josaplay package then evaluates the previous word 
+            The 'josaplay' package then evaluates the previous word 
             to determine which josa is appropriate.
 }
 \seealso{

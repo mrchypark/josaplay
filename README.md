@@ -22,8 +22,6 @@ It is useful with Rmarkdown.
 
 ## Installation
 
-### NOT YET ON CRAN
-
 You can install the released version of josaplay from
 [CRAN](https://CRAN.R-project.org) with:
 
