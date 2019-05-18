@@ -13,6 +13,7 @@ status](https://ci.appveyor.com/api/projects/status/github/mrchypark/josaplay?br
 coverage](https://codecov.io/gh/mrchypark/josaplay/branch/master/graph/badge.svg)](https://codecov.io/gh/mrchypark/josaplay?branch=master)
 [![Lifecycle:
 maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![](https://cranlogs.r-pkg.org/badges/josaplay)](https://cran.r-project.org/package=josaplay)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/josaplay)](https://cran.r-project.org/package=josaplay)
 <!-- badges: end -->
