@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mrchypark.github.io/josaplay/index.html</loc>
+    <loc>mrchypark.github.io/josaplay/404.html</loc>
   </url>
   <url>
-    <loc>https://mrchypark.github.io/josaplay/reference/josaplay-package.html</loc>
+    <loc>mrchypark.github.io/josaplay/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>https://mrchypark.github.io/josaplay/reference/jsp.html</loc>
+    <loc>mrchypark.github.io/josaplay/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://mrchypark.github.io/josaplay/reference/pipe.html</loc>
+    <loc>mrchypark.github.io/josaplay/authors.html</loc>
+  </url>
+  <url>
+    <loc>mrchypark.github.io/josaplay/index.html</loc>
+  </url>
+  <url>
+    <loc>mrchypark.github.io/josaplay/news/index.html</loc>
+  </url>
+  <url>
+    <loc>mrchypark.github.io/josaplay/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>mrchypark.github.io/josaplay/reference/josaplay-package.html</loc>
+  </url>
+  <url>
+    <loc>mrchypark.github.io/josaplay/reference/jsp.html</loc>
+  </url>
+  <url>
+    <loc>mrchypark.github.io/josaplay/reference/pipe.html</loc>
   </url>
 </urlset>
