@@ -14,13 +14,13 @@ Description: Josa in Korean is often determined by judging the previous word.
             to determine which josa is appropriate.
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
 Imports: 
     utf8,
     magrittr
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.2
 URL: https://github.com/mrchypark/josaplay
 BugReports: https://github.com/mrchypark/josaplay/issues
 Suggests: 
     covr
+    usethis

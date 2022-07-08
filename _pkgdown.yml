@@ -1,7 +1,10 @@
-destination: docs
 title: josaplay
-url: https://mrchypark.github.io/josaplay
+url: mrchypark.github.io/josaplay
 template:
+  package: preferably
+  bootstrap: 5
+  bslib:
+    base_font: {google: "Noto Sans"}
   params:
-    bootswatch: yeti
-    ganalytics: UA-47822682-17
+    toggle: manual
+    ganalytics: UA-47822682-14

@@ -6,11 +6,7 @@
 \alias{josaplay-package}
 \title{josaplay: Add Josa Based on Previous Letter in Korean}
 \description{
-Josa in Korean is often determined by judging the previous word. 
-            When writing reports using Rmd, a function that prints the 
-            appropriate investigation for each case is helpful. 
-            The 'josaplay' package then evaluates the previous word 
-            to determine which josa is appropriate.
+Josa in Korean is often determined by judging the previous word. When writing reports using Rmd, a function that prints the appropriate investigation for each case is helpful. The 'josaplay' package then evaluates the previous word to determine which josa is appropriate.
 }
 \seealso{
 Useful links:
@@ -21,7 +17,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Chanyub Park \email{mrchypark@gmail.com} (0000-0001-6474-2570)
+\strong{Maintainer}: Chanyub Park \email{mrchypark@gmail.com} (\href{https://orcid.org/0000-0001-6474-2570}{ORCID})
 
 }
 \keyword{internal}

@@ -28,10 +28,7 @@ is_hangul <- function(textko) {
 }
 
 is_number <- function(textnum){
-  textnum %>%
-    quite_as_numeric() %>%
-    is.na() %>%
-    `!`()
+  !is.na(quite_as_numeric(textnum))
 }
 
 is_modone <- function(koint) {
