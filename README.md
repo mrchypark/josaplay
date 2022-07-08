@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# josaplay
+# josaplay [<img src="man/figures/logo.png" align="right" height=140/>](https://mrchypark.github.io/josaplay/index.html)
 
 <!-- badges: start -->
 
