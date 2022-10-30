@@ -38,3 +38,9 @@ ga <- intToUtf8(44032)
 
 eul <- intToUtf8(51012)
 leul <- intToUtf8(47484)
+
+a <- intToUtf8(50500)
+ya <- intToUtf8(50556)
+
+ena <- intToUtf8(c(51060, 45208))
+na <- intToUtf8(45208)

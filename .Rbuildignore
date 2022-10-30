@@ -11,4 +11,5 @@
 ^appveyor\.yml$
 ^codecov\.yml$
 ^\.github$
-^R/.logo.R$
+tools/*
+^data-raw$

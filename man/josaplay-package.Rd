@@ -6,7 +6,7 @@
 \alias{josaplay-package}
 \title{josaplay: Add Josa Based on Previous Letter in Korean}
 \description{
-\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
 Josa in Korean is often determined by judging the previous word. When writing reports using Rmd, a function that prints the appropriate investigation for each case is helpful. The 'josaplay' package then evaluates the previous word to determine which josa is appropriate.
 }
