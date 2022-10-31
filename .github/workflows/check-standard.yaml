@@ -41,9 +41,12 @@ jobs:
 
       - name: test
         run: |
+          cat("print R_LIBS_SITE start\n")
           cat(Sys.getenv("R_LIBS_SITE"), "\n")
-          cat("sett\n")
+          cat("print R_LIBS_SITE end\n")
+          cat("print .Library.site start\n")
           cat(.Library.site)
+          cat("print .Library.site end\n")
         shell: Rscript {0}
 
       - uses: r-lib/actions/setup-r-dependencies@v2
