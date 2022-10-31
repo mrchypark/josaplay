@@ -49,7 +49,7 @@ jobs:
           cat("print .Library.site end\n")
         shell: Rscript {0}
 
-      - uses: mrchypark/actions/setup-r-dependencies@a98c09b673b69b11bbbf75dde71b298e6177dcfa
+      - uses: mrchypark/actions/setup-r-dependencies@97ad5c5939a03f6bf00a4be26ffcf147c7ef6b5c
         with:
           extra-packages: rcmdcheck
 
