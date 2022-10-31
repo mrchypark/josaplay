@@ -40,6 +40,7 @@ jobs:
           use-public-rspm: true
 
       - uses: mrchypark/actions/setup-r-dependencies@093b3cb12c9a1ba6f51accc9e7d7013cb3908b72
+        with:
           extra-packages: rcmdcheck
 
       - uses: r-lib/actions/check-r-package@v2
