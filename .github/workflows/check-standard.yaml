@@ -39,18 +39,7 @@ jobs:
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
 
-      - name: test
-        run: |
-          cat("print R_LIBS_SITE start\n")
-          cat(Sys.getenv("R_LIBS_SITE"), "\n")
-          cat("print R_LIBS_SITE end\n")
-          cat("print .Library.site start\n")
-          cat(.Library.site)
-          cat("print .Library.site end\n")
-        shell: Rscript {0}
-
-      - uses: mrchypark/actions/setup-r-dependencies@97ad5c5939a03f6bf00a4be26ffcf147c7ef6b5c
-        with:
+      - uses: mrchypark/actions/setup-r-dependencies@093b3cb12c9a1ba6f51accc9e7d7013cb3908b72
           extra-packages: rcmdcheck
 
       - uses: r-lib/actions/check-r-package@v2
