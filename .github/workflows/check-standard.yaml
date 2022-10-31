@@ -44,6 +44,7 @@ jobs:
           cat(Sys.getenv("R_LIBS_SITE"), "\n")
           cat("sett\n")
           cat(.Library.site)
+        shell: Rscript {0}
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
