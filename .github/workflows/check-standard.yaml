@@ -41,6 +41,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
+          pak-version: "v2.2.8"
           extra-packages: rcmdcheck
 
       - uses: r-lib/actions/check-r-package@v2
