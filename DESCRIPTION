@@ -1,6 +1,6 @@
 Package: josaplay
 Title: Add Josa Based on Previous Letter in Korean
-Version: 0.1.3
+Version: 0.2.0
 Authors@R: 
     person(given = "Chanyub",
            family = "Park",
@@ -15,12 +15,16 @@ Description: Josa in Korean is often determined by judging the previous word.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Imports: 
-    utf8,
-    magrittr
+    utf8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 URL: https://github.com/mrchypark/josaplay
 BugReports: https://github.com/mrchypark/josaplay/issues
 Suggests: 
     covr,
+    testthat (>= 3.0.0),
     usethis
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true

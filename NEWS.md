@@ -1,3 +1,7 @@
+# josaplay 0.2.0
+
+* Removed `jsp_*()` function and Added `josa()` function for all josa.
+
 # josaplay 0.1.3
 
 * Fix DESCRIPTION text to submit cran.

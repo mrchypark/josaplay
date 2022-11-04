@@ -1,9 +1,6 @@
 chk <- function(textko) {
-  . <- NULL
-  textko %>%
-    trimws() %>%
-    substr(nchar(.), nchar(.)) ->
-    last
+  tk <- trimws(textko)
+  last <- substr(tk, nchar(tk), nchar(tk))
 
   if (!is_number(last)) {
     stopifnot(is_utf8(textko))
@@ -27,7 +24,7 @@ is_hangul <- function(textko) {
   utf8ToInt_as(textko) %in% 44032:55175
 }
 
-is_number <- function(textnum){
+is_number <- function(textnum) {
   !is.na(quite_as_numeric(textnum))
 }
 
