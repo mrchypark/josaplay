@@ -73,6 +73,9 @@ josa("k146", "이")
 이다 / 다  
 이가 / 가
 
+-   All josa can use `select` param on `josa()` but `가` is work as only
+    `이/가` not `이가/가`.
+
 ### v0.1.3
 
 ``` r
@@ -80,24 +83,32 @@ library(josaplay)
 
 # 가/와
 jsp_gwawa("상품")
+#> Warning: `jsp_gwawa()` was deprecated in josaplay 0.2.0.
+#> ℹ Please use the `select` argument of `josa()` instead.
 #> [1] "상품과"
 jsp_gwawa("텀블러")
 #> [1] "텀블러와"
 
 # 은/는
 jsp_eunneun("사랑")
+#> Warning: `jsp_eunneun()` was deprecated in josaplay 0.2.0.
+#> ℹ Please use the `select` argument of `josa()` instead.
 #> [1] "사랑은"
 jsp_eunneun("탁자")
 #> [1] "탁자는"
 
 # 이/가
 jsp_iga("고객")
+#> Warning: `jsp_iga()` was deprecated in josaplay 0.2.0.
+#> ℹ Please use the `select` argument of `josa()` instead.
 #> [1] "고객이"
 jsp_iga("모니터")
 #> [1] "모니터가"
 
 # 을/를
 jsp_eulleul("패키지")
+#> Warning: `jsp_eulleul()` was deprecated in josaplay 0.2.0.
+#> ℹ Please use the `select` argument of `josa()` instead.
 #> [1] "패키지를"
 jsp_eulleul("컵")
 #> [1] "컵을"
