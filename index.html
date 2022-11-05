@@ -133,42 +133,94 @@
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
 <p>This is a basic example which shows you how to solve a common problem:</p>
+<div class="section level3">
+<h3 id="v020">v0.2.0<a class="anchor" aria-label="anchor" href="#v020"></a>
+</h3>
+<p>Breaking change from v0.1.3</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/mrchypark/josaplay" class="external-link">josaplay</a></span><span class="op">)</span></span>
+<span><span class="co"># 과/와</span></span>
+<span><span class="fu"><a href="reference/josa.html">josa</a></span><span class="op">(</span><span class="st">"상품"</span>, <span class="st">"과"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "상품과"</span></span>
+<span><span class="fu"><a href="reference/josa.html">josa</a></span><span class="op">(</span><span class="st">"상품"</span>, <span class="st">"와"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "상품과"</span></span>
+<span><span class="fu"><a href="reference/josa.html">josa</a></span><span class="op">(</span><span class="st">"텀블러"</span>, <span class="st">"과"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "텀블러와"</span></span>
+<span><span class="fu"><a href="reference/josa.html">josa</a></span><span class="op">(</span><span class="st">"텀블러"</span>, <span class="st">"와"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "텀블러와"</span></span>
+<span></span>
+<span><span class="co"># number</span></span>
+<span><span class="fu"><a href="reference/josa.html">josa</a></span><span class="op">(</span><span class="st">"145"</span>, <span class="st">"이"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "145가"</span></span>
+<span><span class="fu"><a href="reference/josa.html">josa</a></span><span class="op">(</span><span class="st">"k146"</span>, <span class="st">"이"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "k146이"</span></span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="support-josa">support josa<a class="anchor" aria-label="anchor" href="#support-josa"></a>
+</h3>
+<p>을 / 를<br>
+은 / 는<br>
+이 / 가<br>
+과 / 와<br>
+이나 / 나<br>
+으로 / 로<br>
+아 / 야<br>
+이랑 / 랑<br>
+이며 / 며<br>
+이다 / 다<br>
+이가 / 가</p>
+<ul>
+<li>All josa can use <code>select</code> param on <code><a href="reference/josa.html">josa()</a></code> but <code>가</code> is work as only <code>이/가</code> not <code>이가/가</code>.</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="v013">v0.1.3<a class="anchor" aria-label="anchor" href="#v013"></a>
+</h3>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/mrchypark/josaplay" class="external-link">josaplay</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># 가/와</span></span>
-<span><span class="fu">jsp_gwawa</span><span class="op">(</span><span class="st">"상품"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/jsp.html">jsp_gwawa</a></span><span class="op">(</span><span class="st">"상품"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Warning: `jsp_gwawa()` was deprecated in josaplay 0.2.0.</span></span>
+<span><span class="co">#&gt; ℹ Please use the `select` argument of `josa()` instead.</span></span>
 <span><span class="co">#&gt; [1] "상품과"</span></span>
-<span><span class="fu">jsp_gwawa</span><span class="op">(</span><span class="st">"텀블러"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/jsp.html">jsp_gwawa</a></span><span class="op">(</span><span class="st">"텀블러"</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] "텀블러와"</span></span>
 <span></span>
 <span><span class="co"># 은/는</span></span>
-<span><span class="fu">jsp_eunneun</span><span class="op">(</span><span class="st">"사랑"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/jsp.html">jsp_eunneun</a></span><span class="op">(</span><span class="st">"사랑"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Warning: `jsp_eunneun()` was deprecated in josaplay 0.2.0.</span></span>
+<span><span class="co">#&gt; ℹ Please use the `select` argument of `josa()` instead.</span></span>
 <span><span class="co">#&gt; [1] "사랑은"</span></span>
-<span><span class="fu">jsp_eunneun</span><span class="op">(</span><span class="st">"탁자"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/jsp.html">jsp_eunneun</a></span><span class="op">(</span><span class="st">"탁자"</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] "탁자는"</span></span>
 <span></span>
 <span><span class="co"># 이/가</span></span>
-<span><span class="fu">jsp_iga</span><span class="op">(</span><span class="st">"고객"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/jsp.html">jsp_iga</a></span><span class="op">(</span><span class="st">"고객"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Warning: `jsp_iga()` was deprecated in josaplay 0.2.0.</span></span>
+<span><span class="co">#&gt; ℹ Please use the `select` argument of `josa()` instead.</span></span>
 <span><span class="co">#&gt; [1] "고객이"</span></span>
-<span><span class="fu">jsp_iga</span><span class="op">(</span><span class="st">"모니터"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/jsp.html">jsp_iga</a></span><span class="op">(</span><span class="st">"모니터"</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] "모니터가"</span></span>
 <span></span>
 <span><span class="co"># 을/를</span></span>
-<span><span class="fu">jsp_eulleul</span><span class="op">(</span><span class="st">"패키지"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/jsp.html">jsp_eulleul</a></span><span class="op">(</span><span class="st">"패키지"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Warning: `jsp_eulleul()` was deprecated in josaplay 0.2.0.</span></span>
+<span><span class="co">#&gt; ℹ Please use the `select` argument of `josa()` instead.</span></span>
 <span><span class="co">#&gt; [1] "패키지를"</span></span>
-<span><span class="fu">jsp_eulleul</span><span class="op">(</span><span class="st">"컵"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/jsp.html">jsp_eulleul</a></span><span class="op">(</span><span class="st">"컵"</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] "컵을"</span></span>
 <span></span>
 <span><span class="co"># number</span></span>
-<span><span class="fu">jsp_iga</span><span class="op">(</span><span class="st">"145"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/jsp.html">jsp_iga</a></span><span class="op">(</span><span class="st">"145"</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] "145가"</span></span>
-<span><span class="fu">jsp_iga</span><span class="op">(</span><span class="st">"k146"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/jsp.html">jsp_iga</a></span><span class="op">(</span><span class="st">"k146"</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] "k146이"</span></span>
 <span></span>
 <span><span class="co"># with pipe</span></span>
-<span><span class="st">"상품"</span> <span class="op">%&gt;%</span> <span class="fu">jsp_gwawa</span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="st">"상품"</span> <span class="op"><a href="reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="reference/jsp.html">jsp_gwawa</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] "상품과"</span></span></code></pre></div>
+</div>
 </div>
 <div class="section level2">
 <h2 id="todo">Todo<a class="anchor" aria-label="anchor" href="#todo"></a>
