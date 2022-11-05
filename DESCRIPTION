@@ -23,7 +23,8 @@ BugReports: https://github.com/mrchypark/josaplay/issues
 Suggests: 
     covr,
     testthat (>= 3.0.0),
-    usethis
+    usethis,
+    devtools
 Config/testthat/edition: 3
 Depends: 
     R (>= 2.10)

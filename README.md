@@ -36,6 +36,45 @@ install.packages("josaplay", repos = "https://mrchypark.r-universe.dev")
 
 This is a basic example which shows you how to solve a common problem:
 
+### v0.2.0
+
+Breaking change from v0.1.3
+
+``` r
+library(josaplay)
+# 과/와
+josa("상품", "과")
+#> [1] "상품과"
+josa("상품", "와")
+#> [1] "상품과"
+josa("텀블러", "과")
+#> [1] "텀블러와"
+josa("텀블러", "와")
+#> [1] "텀블러와"
+
+# number
+josa("145", "이")
+#> [1] "145가"
+josa("k146", "이")
+#> [1] "k146이"
+```
+
+### support josa
+
+을 / 를  
+은 / 는  
+이 / 가  
+과 / 와  
+이나 / 나  
+으로 / 로  
+아 / 야  
+이랑 / 랑  
+이며 / 며  
+이다 / 다  
+이가 / 가
+
+### v0.1.3
+
 ``` r
 library(josaplay)
 
