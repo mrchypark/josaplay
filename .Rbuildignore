@@ -12,3 +12,4 @@
 ^codecov\.yml$
 ^\.github$
 ^data-raw$
+^.renvignore$
