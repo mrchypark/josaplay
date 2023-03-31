@@ -1,3 +1,5 @@
+# josaplay 0.2.1
+
 # josaplay 0.2.0
 
 * Removed `jsp_*()` function and Added `josa()` function for all josa.
