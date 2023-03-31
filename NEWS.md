@@ -1,5 +1,7 @@
 # josaplay 0.2.1
 
+* Remove examples from Korean.
+
 # josaplay 0.2.0
 
 * Removed `jsp_*()` function and Added `josa()` function for all josa.
