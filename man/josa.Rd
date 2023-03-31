@@ -14,6 +14,3 @@ josa(textko, select)
 \description{
 josa support
 }
-\examples{
- josa("텀블러", "와")
-}
