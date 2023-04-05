@@ -13,3 +13,4 @@
 ^\.github$
 ^data-raw$
 ^.renvignore$
+^cran-comments\.md$
