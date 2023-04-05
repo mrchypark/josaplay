@@ -35,7 +35,7 @@ The goal of josaplay is to provide functions to add josa in Korean text. It is u
 install.packages("josaplay")
 
 # Dev version
-install.packages("josaplay", repos = "https://mrchypark.r-universe.dev")
+install.packages('josaplay', repos = c('https://mrchypark.r-universe.dev', 'https://cloud.r-project.org'))
 ```
 
 ## Example
@@ -44,7 +44,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ### v0.2.0
 
-Breaking change from v0.1.3. 
+Breaking change from v0.1.3
 
 ```{r}
 library(josaplay)
